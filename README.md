@@ -12,14 +12,14 @@ Lindblad equation whose \textbf{jump operators are bosonic annihilation operator
 
 \QuLiS{} targets the numerical simulation of dissipative dynamics of bosonic open quantum systems.
 Its core object is the Lindblad master equation of the form
-\begin{equation}
+'''
   \dot{\rho}
   = -\frac{i}{\hbar}\,[H, \rho]
   + \sum_k \left(
       L_k \rho L_k^{\dagger}
       - \frac{1}{2}\{L_k^{\dagger} L_k, \rho\}
     \right),
-\end{equation}
+'''
 where the jump operators $L_k$ are bosonic annihilation operators. The package achieves
 efficient solutions through the following three mathematical methods:
 \begin{itemize}[leftmargin=1.5em]
